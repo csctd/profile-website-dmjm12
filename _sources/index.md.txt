@@ -8,9 +8,9 @@ One piece is the GOAT
 
 
 <!-- use this to make a menu when you add more pages -->
-<!-- ```{toctree}
+```{toctree}
 :maxdepth: 2
 :hidden:
 
 pechakucha
-``` -->
+```
