@@ -9,7 +9,7 @@
 ![alt text](_static/img/ScreenShot.png)
 ```
 
-```{cards}
+```{card}
 :class-card: slide
 
 ![alt text](_static/img/IMG_4135.jpg)
