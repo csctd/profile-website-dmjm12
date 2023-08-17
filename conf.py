@@ -1,8 +1,8 @@
 # -- Project information -----------------------------------------------------
 
-project = 'Site Title'
-copyright = '2022, Your name'
-author = 'Your Name'
+project = 'Diegos Page'
+copyright = '2023, Diego M Jerzyk-Matos'
+author = 'Diego Jerzyk-Matos'
 
 
 
@@ -47,17 +47,28 @@ import yaml
 with open ('info.yml','r') as f:
     html_context = yaml.safe_load(f)
 
-
 html_theme_options = {
   "github_url": "https://github.com/username/",
-  "twitter_url": "https://twitter.com/username",
+#   "instagram_url": "https://instagram.com/dj.matos12/",
+  "icon_links": [
+        {
+            # Label for this link
+            "name": "Instagram",
+            # URL where the link will redirect
+            "url": "https://https://instagram.com/dj.matos12/",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa-brands fa-square-instagram",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        }
+   ],
   "search_bar_text": "Search this site...",
-#   "navbar_end": ["search-field.html"],
+  "navbar_end": ["search-field.html"],
 }
 
 # html_favicon = "_static/favicon.ico"
 #  change this to change the site title
-html_title = project
+# html_title = Diegos Page
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
