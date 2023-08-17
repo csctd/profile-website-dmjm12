@@ -42,3 +42,25 @@ Run `nox`
    ```
 
 this should install a Sphinx environment and build the site, putting the output files in `_build/html`. -->
+
+# Profile Website
+
+Welcome to my profile website, everyone that is curious about me .
+<!-- enter your target audience after the comma above -->
+
+Since you're here, you might be: 
+- Interested in me and my work 
+- Are they related in my life somehow
+- Want to see assignments computer science related
+<!-- make a bulleted list of 3 fictional visitors to your site. Include a few detials about them that could impact how you design for them. For each visitor, assign a task or goal they have for visiting your profile website -->
+
+
+## Design
+
+With the design, I hope to be able to make it as user-friendly as possible and also be able to have it as close to as perfect what I have in mind.  I want to make sure I group things that are related and can have similar topics next to each other.
+
+## Accessibility
+
+I will make sure I have all colorblind colors as well have a bunch of different options like text-to-speech and other tools to help.
+
+
